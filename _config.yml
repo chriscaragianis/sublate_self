@@ -1,0 +1,14 @@
+# Site settings
+title: sublate --self
+email: chriscaragianis@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Points of interest: Teaching AP Computer Science, learning full stack 
+  development, improving my TDD chops, coping with this world, learning
+  to relax.  
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: brohammersdad
+github_username:  chriscaragianis
+
+# Build settings
+markdown: kramdown
