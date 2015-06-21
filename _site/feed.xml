@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sublate --self</title>
+    <description>Points of interest: Teaching AP Computer Science, learning full stack  development, improving my TDD chops, coping with this world, learning to relax.  
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 20 Jun 2015 23:09:32 -0400</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2015 23:09:32 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 19 Jun 2015 10:11:56 -0400</pubDate>
+        <link>/jekyll/update/2015/06/19/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/jekyll/update/2015/06/19/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>TDD FizzBuzz</title>
+        <description>&lt;p&gt;So after &lt;a href=&quot;LAST POST&quot;&gt;automating the AP Computer Science exam&lt;/a&gt;, the question is 
+hanging in the air&lt;/p&gt;
+
+&lt;h2 id=&quot;should-ap-computer-science-cover-tdd&quot;&gt;Should AP Computer Science cover TDD?&lt;/h2&gt;
+
+&lt;p&gt;Dropping any politicizing acronyms, lets ask ‘should APCS teach automated 
+testing?’  I’m going with yes.  So how to do it?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-fizzbuzz-lesson&quot;&gt;The FizzBuzz lesson&lt;/h2&gt;
+
+&lt;p&gt;The learning target here is building the schema of test-first.
+Students should come out able to describe how software can test software. Bonus 
+points if they can tell you what “everything that could break” means[FOOTNOTE]
+(Interestingly, this is the only mention of testing I’ve yet found in the APCS
+materials: a MC question on the dogma of “&lt;em&gt;there could always be more bugs!&lt;/em&gt;”).&lt;/p&gt;
+
+&lt;p&gt;This lesson relies on the teacher’s skill in steering the discussion.  It’s a 
+coding demostration, but if I learned one thing in my first year of teaching 
+this course it’s how to survive a coding demonstration. There’s a way of 
+distilling a complex group discussion into a plan that just happens to line up
+with what you were going to do anyway. Don’t do that. Rather go in with a clear 
+understanding of the key moments in the lesson and make sure you visit them.
+All this is to say that the code in this lesson could have turned out any
+number of ways.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-essential-question&quot;&gt;The Essential Question&lt;/h2&gt;
+
+&lt;p&gt;How do we know that a piece of software “works”?&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jun 2015 00:00:00 -0400</pubDate>
+        <link>/2015/06/10/tdd-fizzbuzz.html</link>
+        <guid isPermaLink="true">/2015/06/10/tdd-fizzbuzz.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Automating the Ap Computer Science Exam</title>
+        <description>&lt;p&gt;The silliest thing about AP Computer Science is the handwriting of code. 
+Students give you side eye when you bring it up and all you can do is shrug. 
+That’s &lt;a href=&quot;https://apstudent.collegeboard.org/apcourse/ap-computer
+-science-a&quot;&gt;the test&lt;/a&gt;, and it doesn’t matter what I think, nor what is right, true or 
+sensible.&lt;/p&gt;
+
+&lt;h2 id=&quot;it-doesnt-have-to-be-this-way&quot;&gt;It doesn’t have to be this way&lt;/h2&gt;
+
+&lt;p&gt;Why not have a computer based test
+like the GRE or the Praxis?  Give the kids some syntax highlighting for crying 
+out loud!  Better yet, why not &lt;em&gt;automate&lt;/em&gt; the test?  Grading the test takes a 
+fleet of highly qualified graders a week.  Expenses paid. Isn’t automated 
+testing kind of a ‘thing’ in software development today?&lt;/p&gt;
+
+&lt;h2 id=&quot;automating-the-apcs-exam-part-1-ingredients&quot;&gt;Automating the APCS Exam Part 1: Ingredients&lt;/h2&gt;
+
+&lt;p&gt;We’ll start with the happy assumption that the College Board &lt;a href=&quot;LINK TO OTHER POST&quot;&gt;replaces Java 
+with Ruby&lt;/a&gt; as the language of study. As usual, the most
+important reason (among many nearly as important and far more valid reasons)
+for this is that I want to work with Ruby.  The task will be to convert a 
+handwritten free-response question from 2014 into an automated, computer-based 
+test with automated scoring.&lt;/p&gt;
+
+&lt;p&gt;We’ll write the tests using &lt;a href=&quot;rspec.info&quot;&gt;RSpec&lt;/a&gt;, again, because that’s what I
+feel like messing around with right now.&lt;/p&gt;
+
+&lt;p&gt;Here are the directions for part (a) of Question 1 from 
+2014’s exam:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/directions_a.png&quot; alt=&quot;Question 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And the scoring guide:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/score_guide.png&quot; alt=&quot;Question 2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;automating-the-apcs-exam-part-2-designing-the-tests&quot;&gt;Automating the APCS Exam Part 2: Designing the tests&lt;/h2&gt;
+
+&lt;p&gt;We’re going to assign five points on this problem, but we are going to do it 
+differently.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I’m going to get teacher-y here, bail on this section if you must.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Good teachers assess diverse aspects of performance. It’s good practice to
+value all parts of creating an artifact, so that students with diverse 
+skills can see success in different ways. So, penmanship counts.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, this can get out of hand.  Especially if you have a 
+target number of points, or have a task that is difficult to parse into 
+discrete “jobs”.  What we have with this scoring guide is a bit of &lt;em&gt;partial
+credit creep&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The problem is a straightforward code kata. The scoring guide seems like it’s 
+trying to extract more computer science knowledge than the problem can
+really support.  I propose we write tests for a variety of cases, from the
+trivial to the edge, and assign a point for each one.  In this way we will
+have a score that measures the amount of desired functionality present in the
+solution.  We’ll normalize the results for five points in the following way&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 point for having the tests run (No points if the tests don’t run: it’s 
+a non-answer)&lt;/li&gt;
+  &lt;li&gt;let n = the number of tests&lt;/li&gt;
+  &lt;li&gt;let p = the number of passed tests&lt;/li&gt;
+  &lt;li&gt;p/n * 4 points for functionality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now we can get our finer grained assessment by writing tests that cover the 
+various ways the solution can fail in a modular fashion.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No change if the pattern does not appear (include a trailing ‘A’)&lt;/li&gt;
+  &lt;li&gt;One change, beginning of string&lt;/li&gt;
+  &lt;li&gt;One change, middle of string&lt;/li&gt;
+  &lt;li&gt;One change, end of string&lt;/li&gt;
+  &lt;li&gt;No change on ‘AA’&lt;/li&gt;
+  &lt;li&gt;Multiple changes, no chance of double changes&lt;/li&gt;
+  &lt;li&gt;Multiple changes, avoid double changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So our tests will look like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-coderay&quot;&gt;&lt;div class=&quot;CodeRay&quot;&gt;
+  &lt;div class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n1&quot; name=&quot;n1&quot;&gt;1&lt;/a&gt;&lt;/span&gt;  describe &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;scramble_word: No change if no A_&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n2&quot; name=&quot;n2&quot;&gt;2&lt;/a&gt;&lt;/span&gt;    let (&lt;span style=&quot;color:#A60&quot;&gt;:word&lt;/span&gt;) {&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;MOTHRA&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;}
+&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n3&quot; name=&quot;n3&quot;&gt;3&lt;/a&gt;&lt;/span&gt;    it { should eq &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;MOTHRA&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; }
+&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n4&quot; name=&quot;n4&quot;&gt;4&lt;/a&gt;&lt;/span&gt;  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n5&quot; name=&quot;n5&quot;&gt;5&lt;/a&gt;&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n6&quot; name=&quot;n6&quot;&gt;6&lt;/a&gt;&lt;/span&gt;  describe &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;scramble_word: One change, at beginning&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n7&quot; name=&quot;n7&quot;&gt;7&lt;/a&gt;&lt;/span&gt;    let (&lt;span style=&quot;color:#A60&quot;&gt;:word&lt;/span&gt;) {&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;APPLE&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;}
+&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n8&quot; name=&quot;n8&quot;&gt;8&lt;/a&gt;&lt;/span&gt;    it { should eq &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;PAPLE&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; }   
+&lt;span class=&quot;line-numbers&quot;&gt; &lt;a href=&quot;#n9&quot; name=&quot;n9&quot;&gt;9&lt;/a&gt;&lt;/span&gt;  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;strong&gt;&lt;a href=&quot;#n10&quot; name=&quot;n10&quot;&gt;10&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n11&quot; name=&quot;n11&quot;&gt;11&lt;/a&gt;&lt;/span&gt;  describe &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;scramble_word: One change, in middle&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n12&quot; name=&quot;n12&quot;&gt;12&lt;/a&gt;&lt;/span&gt;    let (&lt;span style=&quot;color:#A60&quot;&gt;:word&lt;/span&gt;) {&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;TABLE&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;}
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n13&quot; name=&quot;n13&quot;&gt;13&lt;/a&gt;&lt;/span&gt;    it { should eq &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;TBALE&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; }   
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n14&quot; name=&quot;n14&quot;&gt;14&lt;/a&gt;&lt;/span&gt;  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n15&quot; name=&quot;n15&quot;&gt;15&lt;/a&gt;&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n16&quot; name=&quot;n16&quot;&gt;16&lt;/a&gt;&lt;/span&gt;  describe &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;scramble_word: One change, at end&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n17&quot; name=&quot;n17&quot;&gt;17&lt;/a&gt;&lt;/span&gt;    let (&lt;span style=&quot;color:#A60&quot;&gt;:word&lt;/span&gt;) {&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;LINEAR&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;}
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n18&quot; name=&quot;n18&quot;&gt;18&lt;/a&gt;&lt;/span&gt;    it { should eq &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;LINERA&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; }   
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n19&quot; name=&quot;n19&quot;&gt;19&lt;/a&gt;&lt;/span&gt;  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;strong&gt;&lt;a href=&quot;#n20&quot; name=&quot;n20&quot;&gt;20&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n21&quot; name=&quot;n21&quot;&gt;21&lt;/a&gt;&lt;/span&gt;  describe &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;scramble_word: No switch on AA&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n22&quot; name=&quot;n22&quot;&gt;22&lt;/a&gt;&lt;/span&gt;    let (&lt;span style=&quot;color:#A60&quot;&gt;:word&lt;/span&gt;) {&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;AARP&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;}
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n23&quot; name=&quot;n23&quot;&gt;23&lt;/a&gt;&lt;/span&gt;    it { should eq &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;ARAP&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; }   
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n24&quot; name=&quot;n24&quot;&gt;24&lt;/a&gt;&lt;/span&gt;  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;  
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n25&quot; name=&quot;n25&quot;&gt;25&lt;/a&gt;&lt;/span&gt;  
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n26&quot; name=&quot;n26&quot;&gt;26&lt;/a&gt;&lt;/span&gt;  describe &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;scramble_word: Multiple switches, no double switch&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n27&quot; name=&quot;n27&quot;&gt;27&lt;/a&gt;&lt;/span&gt;    let (&lt;span style=&quot;color:#A60&quot;&gt;:word&lt;/span&gt;) {&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;ANNATO&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;}
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n28&quot; name=&quot;n28&quot;&gt;28&lt;/a&gt;&lt;/span&gt;    it { should eq &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;NANTAO&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; }   
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n29&quot; name=&quot;n29&quot;&gt;29&lt;/a&gt;&lt;/span&gt;  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;  
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;strong&gt;&lt;a href=&quot;#n30&quot; name=&quot;n30&quot;&gt;30&lt;/a&gt;&lt;/strong&gt;&lt;/span&gt; 
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n31&quot; name=&quot;n31&quot;&gt;31&lt;/a&gt;&lt;/span&gt;  describe &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;scramble_word: Multiple switches, handle double switch&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n32&quot; name=&quot;n32&quot;&gt;32&lt;/a&gt;&lt;/span&gt;    let (&lt;span style=&quot;color:#A60&quot;&gt;:word&lt;/span&gt;) {&lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;BANANA&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;}
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n33&quot; name=&quot;n33&quot;&gt;33&lt;/a&gt;&lt;/span&gt;    it { should eq &lt;span style=&quot;background-color:hsla(0,100%,50%,0.05)&quot;&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;span style=&quot;color:#D20&quot;&gt;ABNNAA&lt;/span&gt;&lt;span style=&quot;color:#710&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; }   
+&lt;span class=&quot;line-numbers&quot;&gt;&lt;a href=&quot;#n34&quot; name=&quot;n34&quot;&gt;34&lt;/a&gt;&lt;/span&gt;  &lt;span style=&quot;color:#080;font-weight:bold&quot;&gt;end&lt;/span&gt;  
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 10 Jun 2015 00:00:00 -0400</pubDate>
+        <link>/2015/06/10/automating-APCS.html</link>
+        <guid isPermaLink="true">/2015/06/10/automating-APCS.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
