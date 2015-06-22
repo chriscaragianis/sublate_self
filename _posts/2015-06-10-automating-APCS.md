@@ -49,23 +49,14 @@ Automating the APCS Exam Part 2: Designing the tests
 We're going to assign five points on this problem, but we are going to do it 
 differently.
 
-*I'm going to get teacher-y here, bail on this section if you must.*
-
-Good teachers assess diverse aspects of performance. It's good practice to
-value all parts of creating an artifact, so that students with diverse 
-skills can see success in different ways. So, penmanship counts.  
-
-On the other hand, this can get out of hand.  Especially if you have a 
-target number of points, or have a task that is difficult to parse into 
-discrete "jobs".  What we have with this scoring guide is a bit of *partial
-credit creep*. 
-
-The problem is a straightforward code kata. The scoring guide seems like it's 
-trying to extract more computer science knowledge than the problem can
-really support.  I propose we write tests for a variety of cases, from the
+The problem is a straightforward code kata. I feel comfortable not 
+overthinking this.  The current scoring guide is geared toward functionality,
+so I propose we write tests for a variety of cases, from the
 trivial to the edge, and assign a point for each one.  In this way we will
 have a score that measures the amount of desired functionality present in the
-solution.  We'll normalize the results for five points in the following way
+solution.  
+
+Normalize the results for five points in the following way
 
   - 1 point for having the tests run (No points if the tests don't run: it's 
     a non-answer)
@@ -73,8 +64,7 @@ solution.  We'll normalize the results for five points in the following way
   - let p = the number of passed tests
   - p/n * 4 points for functionality
 
-Now we can get our finer grained assessment by writing tests that cover the 
-various ways the solution can fail in a modular fashion.
+The tests we'll need:
 
   - No change if the pattern does not appear (include a trailing 'A')
   - One change, beginning of string
@@ -158,5 +148,7 @@ In Conclusion...
 The expediency of automating the exam is obvious, but I'm not going to tell the
 College Board how to spend their money. Actually, given that exam fees now
 run $91, maybe someone should.  But not me, today.  Automating the exam is the
-right thing to do *from a pedagogical point of view*.  This is a point I hope
-to build on in future posts.  
+right thing to do *from a pedagogical point of view*. If I'm teaching to this 
+test, I'm teaching  the current content plus careful code reading, analytical 
+problem solving, and TDD. If I'm teaching to the old test, I'm teaching
+penmanship.
