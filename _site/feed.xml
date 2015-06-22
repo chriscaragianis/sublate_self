@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Jun 2015 21:48:36 -0400</pubDate>
-    <lastBuildDate>Sun, 21 Jun 2015 21:48:36 -0400</lastBuildDate>
+    <pubDate>Sun, 21 Jun 2015 22:37:56 -0400</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2015 22:37:56 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -77,8 +77,10 @@ number of ways.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Automating the Ap Computer Science Exam</title>
-        <description>&lt;p&gt;The silliest thing about AP Computer Science is the handwriting of code. 
+        <title>Automating the AP Computer Science Exam</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/handwriting.png&quot; alt=&quot;Handwritten code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The silliest thing about AP Computer Science is the handwriting of code. 
 Students give you side eye when you bring it up and all you can do is shrug. 
 That’s &lt;a href=&quot;https://apstudent.collegeboard.org/apcourse/ap-computer
 -science-a&quot;&gt;the test&lt;/a&gt;, and it doesn’t matter what I think, nor what is right, true or 
@@ -90,14 +92,16 @@ sensible.&lt;/p&gt;
 like the GRE or the Praxis?  Give the kids some syntax highlighting for crying 
 out loud!  Better yet, why not &lt;em&gt;automate&lt;/em&gt; the test?  Grading the test takes a 
 fleet of highly qualified graders a week.  Expenses paid. Isn’t automated 
-testing kind of a ‘thing’ in software development today?&lt;/p&gt;
+testing kind of a ‘thing’ in computer science?&lt;/p&gt;
 
 &lt;h2 id=&quot;automating-the-apcs-exam-part-1-ingredients&quot;&gt;Automating the APCS Exam Part 1: Ingredients&lt;/h2&gt;
 
-&lt;p&gt;We’ll start with the happy assumption that the College Board &lt;a href=&quot;LINK TO OTHER POST&quot;&gt;replaces Java 
-with Ruby&lt;/a&gt; as the language of study. As usual, the most
-important reason (among many nearly as important and far more valid reasons)
-for this is that I want to work with Ruby.  The task will be to convert a 
+&lt;p&gt;This is what I’m thinking about now, but now is also when I’m learning Ruby.
+So I’m doing this with Ruby.  Instead of Java.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dtmwtd.gif&quot; alt=&quot;Don&#39;t tell me what to do&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Maybe I’ll work up a Java version later.  The task will be to convert a 
 handwritten free-response question from 2014 into an automated, computer-based 
 test with automated scoring.&lt;/p&gt;
 
@@ -224,9 +228,17 @@ under the old scoring guide.&lt;/p&gt;
 
 &lt;p&gt;The real pedagocial benefit to this approach is that she &lt;em&gt;wouldn’t&lt;/em&gt; stop here.
 It slipped her mind that &lt;code&gt;sub&lt;/code&gt; only looks at the first match.  If
-she looks at the test output, it’s going to be immediately apparent that the 
+she pays attention to the test output, it’s going to be immediately apparent that the 
 problem is in dealing with multiple switches.  Now she can get to work finding 
-a way to work on the entire string.&lt;/p&gt;
+a way to access the entire string.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-conclusion&quot;&gt;In Conclusion…&lt;/h2&gt;
+
+&lt;p&gt;The expediency of automating the exam is obvious, but I’m not going to tell the
+College Board how to spend their money. Actually, given that exam fees now
+run $91, maybe someone should.  But not me, today.  Automating the exam is the
+right thing to do &lt;em&gt;from a pedagogical point of view&lt;/em&gt;.  This is a point I hope
+to build on in future posts.&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Jun 2015 00:00:00 -0400</pubDate>
         <link>/2015/06/10/automating-APCS.html</link>

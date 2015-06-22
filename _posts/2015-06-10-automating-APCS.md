@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Automating the Ap Computer Science Exam
+title: Automating the AP Computer Science Exam
 ---
+![Handwritten code](/assets/handwriting.png)
+
 The silliest thing about AP Computer Science is the handwriting of code. 
 Students give you side eye when you bring it up and all you can do is shrug. 
 That’s [the test](https://apstudent.collegeboard.org/apcourse/ap-computer
@@ -15,15 +17,17 @@ Why not have a computer based test
 like the GRE or the Praxis?  Give the kids some syntax highlighting for crying 
 out loud!  Better yet, why not *automate* the test?  Grading the test takes a 
 fleet of highly qualified graders a week.  Expenses paid. Isn't automated 
-testing kind of a 'thing' in software development today?  
+testing kind of a 'thing' in computer science?  
 
 Automating the APCS Exam Part 1: Ingredients
 --------------------------------------------
 
-We’ll start with the happy assumption that the College Board [replaces Java 
-with Ruby](LINK TO OTHER POST) as the language of study. As usual, the most
-important reason (among many nearly as important and far more valid reasons)
-for this is that I want to work with Ruby.  The task will be to convert a 
+This is what I'm thinking about now, but now is also when I'm learning Ruby.
+So I'm doing this with Ruby.  Instead of Java.
+
+![Don't tell me what to do](/assets/dtmwtd.gif) 
+
+Maybe I'll work up a Java version later.  The task will be to convert a 
 handwritten free-response question from 2014 into an automated, computer-based 
 test with automated scoring.
 
@@ -144,6 +148,15 @@ under the old scoring guide.
 
 The real pedagocial benefit to this approach is that she *wouldn't* stop here.
 It slipped her mind that <code>sub</code> only looks at the first match.  If
-she looks at the test output, it's going to be immediately apparent that the 
+she pays attention to the test output, it's going to be immediately apparent that the 
 problem is in dealing with multiple switches.  Now she can get to work finding 
-a way to work on the entire string.  
+a way to access the entire string. 
+
+In Conclusion...
+----------------
+
+The expediency of automating the exam is obvious, but I'm not going to tell the
+College Board how to spend their money. Actually, given that exam fees now
+run $91, maybe someone should.  But not me, today.  Automating the exam is the
+right thing to do *from a pedagogical point of view*.  This is a point I hope
+to build on in future posts.  
