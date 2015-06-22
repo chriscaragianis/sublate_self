@@ -103,7 +103,7 @@ So our tests will look like this:
     it { should eq 'LINERA' }   
   end
 
-  describe 'scramble_word: No switch on AA' do
+  describe 'scramble_word: No switch and skip on AA' do
     let (:word) {'AARP'}
     it { should eq 'ARAP' }   
   end  
@@ -118,3 +118,32 @@ So our tests will look like this:
     it { should eq 'ABNNAA' }   
   end  
 ~~~
+
+I should note that these are what the *exam-taker's* tests will look like. For 
+obvious reasons, we should have a separate set of analogous examples for 
+scoring.  
+
+Automating the APCS Exam Part 3: Scoring a Response
+-----------------------------------------------------
+
+So let's say we have a student sitting for the exam, she encounters this 
+problem, and works out this solution.
+
+~~~ ruby
+class Scramble
+
+  def self.scramble_word word
+    word.sub(/A./) { |m| m.reverse }
+  end
+end
+~~~
+
+If she stops here, then four of the seven tests will pass, yielding a score of
+3.29/5 for the problem, which is comparable to the 3/5 she would have scored
+under the old scoring guide.   
+
+The real pedagocial benefit to this approach is that she *wouldn't* stop here.
+It slipped her mind that <code>sub</code> only looks at the first match.  If
+she looks at the test output, it's going to be immediately apparent that the 
+problem is in dealing with multiple switches.  Now she can get to work finding 
+a way to work on the entire string.  
